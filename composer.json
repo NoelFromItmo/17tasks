@@ -1,5 +1,0 @@
-{
-    "require": {
-        "phlint/phlint": "^0.4.1"
-    }
-}
