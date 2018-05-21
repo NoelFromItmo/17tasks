@@ -1,4 +1,7 @@
 <?php
+
+500 error plz
+
 $conn = new mysqli(localhost, root, toor, noel_test);
 $a = $_POST['name'];
 
