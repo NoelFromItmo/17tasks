@@ -1,0 +1,36 @@
+{
+
+  "name": "phlint/phif",
+  "description": "PHP Standard Declarations.",
+  "homepage": "https://gitlab.com/phlint/phif",
+  "license": "MIT",
+  "type": "library",
+
+  "authors": [
+    {
+      "name": "Luka Unuk (luka8088)",
+      "email": "luka8088@nrsk.net"
+    }
+  ],
+
+  "require": {
+    "php": "^5.5 || ^7.0"
+  },
+
+  "require-dev": {
+    "nikic/php-parser": "^4.0@dev"
+  },
+
+  "extra": {
+    "branch-alias": {
+      "dev-master": "0.1.x-dev"
+    }
+  },
+
+  "autoload": {
+    "psr-4": {
+      "": "code/"
+    }
+  }
+
+}

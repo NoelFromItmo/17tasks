@@ -1,0 +1,33 @@
+{
+
+  "name": "luka8088/extension-interface",
+  "description": "PHP Extension Interface.",
+  "homepage": "https://gitlab.com/luka8088/extension-interface-php",
+  "license": "MIT",
+  "type": "library",
+
+  "authors": [
+    {
+      "name": "Luka Unuk (luka8088)",
+      "email": "luka8088@nrsk.net"
+    }
+  ],
+
+  "require": {
+    "php": "^5.4 || ^7.0",
+    "luka8088/attribute": "^0.1 || ^0.2"
+  },
+
+  "extra": {
+    "branch-alias": {
+      "dev-master": "0.3.x-dev"
+    }
+  },
+
+  "autoload": {
+    "psr-4": {
+      "": "code/"
+    }
+  }
+
+}

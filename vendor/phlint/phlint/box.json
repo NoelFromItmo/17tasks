@@ -1,0 +1,14 @@
+{
+    "directories": [
+      "code/",
+      "vendor/"
+    ],
+    "files": [
+      "license.txt",
+      "phlint.php",
+      "readme.md"
+    ],
+    "main": "phlint.php",
+    "output": "phlint.phar",
+    "stub": true
+}

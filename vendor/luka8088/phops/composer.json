@@ -1,0 +1,36 @@
+{
+
+  "name": "luka8088/phops",
+  "description": "PHP Core Library Extensions.",
+  "homepage": "https://gitlab.com/luka8088/phops",
+  "license": "MIT",
+  "type": "library",
+
+  "authors": [
+    {
+      "name": "Luka Unuk",
+      "email": "luka8088@nrsk.net"
+    }
+  ],
+
+  "require": {
+    "php": "^5.5 || ^7.0"
+  },
+
+  "require-dev": {
+    "luka8088/ci": "^0.1"
+  },
+
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0.x-dev"
+    }
+  },
+
+  "autoload": {
+    "psr-4": {
+      "": "code/"
+    }
+  }
+
+}
