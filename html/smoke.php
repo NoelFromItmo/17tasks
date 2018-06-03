@@ -2,6 +2,7 @@
 
        if (isDomainAvailible('http://87.236.23.103'))
        {
+               
                echo "It's ok \n";
        }
        else
@@ -23,8 +24,9 @@
                $response = curl_exec($curlInit);
                echo($response);
                curl_close($curlInit);
-
-               if ($response) return true;
+	       $res_code = mb_substr($response, 3, 10);
+               echo($res_code);
+               if ($res_code=="200") return true;
 
                return false;
 
