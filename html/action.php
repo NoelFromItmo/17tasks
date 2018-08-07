@@ -1,6 +1,6 @@
 <?php
 
-$conn = new mysqli(localhost, root, toor, noel_test);
+$conn = new mysqli("localhost", "root", "toor", "noel_test");
 $a = $_POST['name'];
 
 if ($conn->connect_error) {
