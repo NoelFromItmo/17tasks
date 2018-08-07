@@ -1,5 +1,4 @@
 <?php
-
        if (isDomainAvailible('http://87.236.23.103'))
        {
                
@@ -8,7 +7,7 @@
        else
        {
                echo "We have a probem \n";
-       }
+       };
 
        //Возвращает true, если домен доступен
        function isDomainAvailible($domain)
@@ -22,13 +21,17 @@
 
                //Получаем ответ
                $response = curl_exec($curlInit);
-               echo($response);
+//               echo($response);
                curl_close($curlInit);
-	       $res_code = mb_substr($response, 3, 10);
+	       $res_code = mb_substr($response, 9, 4);
+               echo("HTTP status code: ");
                echo($res_code);
-               if ($res_code=="200") return true;
-
-               return false;
+               if ($res_code==200){ 
+                    return true;
+               }
+               else{
+                    return false;
+               };
 
        }
 ?>
